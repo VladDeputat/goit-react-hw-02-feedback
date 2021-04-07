@@ -1,0 +1,21 @@
+.btn {
+  width: 100px;
+  height: 35px;
+  border-radius: 10px;
+  background-color: rgb(102, 151, 241);
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 22px;
+  transition: all linear 200ms;
+  outline: none;
+
+  &:hover,
+  &:focus {
+    background-color: orange;
+    box-shadow: 5px 5px 32px 0px rgb(102, 151, 241);
+  }
+}
+
+.btn + .btn {
+  margin-left: 15px;
+}
